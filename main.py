@@ -17,11 +17,8 @@ def authenticate_youtube():
     youtube = googleapiclient.discovery.build("youtube", "v3", credentials=credentials)
     return youtube
 def upload_subtitle(video_id, file_path, language='en', name='en'):
-
-    # 2. Prepare the subtitle file for upload
     media = MediaFileUpload(file_path, mimetype='text/plain', resumable=True)
 
-    # 3. Call the captions.insert method
     request = youtube.captions().insert(
         part="snippet",
         body={
