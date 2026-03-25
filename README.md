@@ -18,13 +18,14 @@ To install Python, visit https://www.python.org/downloads/.
 1. Copy your video ID by clicking "Share" button and truncate the URLs like https://youtu.be/ or https://www.youtube.com/ , and remove other configurations such as "si" or "pp" or more. <br>
 <img width="259" height="81" alt="image" src="https://github.com/user-attachments/assets/4b3e7cdb-a728-4804-a7e8-01eb5723b56a" />
 <br>
-2. Download the main.py and store where the clint_secret.json file is located. Copy the main.py as a path.
-3. Open up the Command Prompt and change the directory where the subtitle file is located.
-4. Paste the path. If you're greeted with <i>client_secrets.json file is found. Good</i>, type the subtitle name and its extension.
-5. You'll be greeted with a OAuth page. Ignore all the warnings and click <i>Continue</i>.
-6. Paste the video ID, and enter the subtitle language. You can find it here: https://developers.google.com/workspace/admin/directory/v1/languages
-7. If you want, you can name the track. If you don't want to, you can leave it and press Enter.
-8. Congrats! You have finally uploaded your subtitle. If the API returns an error, try checking the permissions in the Credential page in Google Cloud.
-
+2. Download the main.py and store where the clint_secret.json file is located. Copy the main.py as a path.<br>
+3. Open up the Command Prompt and change the directory where the subtitle file is located.<br>
+4. Paste the path. If you're greeted with <i>client_secrets.json file is found. Good</i>, type the subtitle name and its extension.<br>
+5. You'll be greeted with a OAuth page. Ignore all the warnings and click <i>Continue</i>.<br>
+6. Paste the video ID, and enter the subtitle language. You can find it here: https://developers.google.com/workspace/admin/directory/v1/languages <br>
+7. If you want, you can name the track. If you don't want to, you can leave it and press Enter. <br>
+8. Congrats! You have finally uploaded your subtitle. If the API returns an error, try checking the permissions in the Credential page in Google Cloud.<br>
+<br>
+<br>
 If you have any other issues, DM me on Discord: realtechnologytime69
 
